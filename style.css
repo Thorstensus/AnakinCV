@@ -1,0 +1,148 @@
+container {
+  width: 100%;  
+  margin: 0px;
+  height: 100%
+}
+
+header {
+  display: flex;
+  background-color: black;
+  height: 150px;
+  justify-content: center;
+  margin: 0px
+}
+
+button {
+  background: none;
+  color: white;
+  border: none;
+  font-family: Abril Fatface;
+  font-size: 60px;
+  margin-left: 15px;
+  margin-right: 15px
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  height: 3900px
+}
+
+.column-1 {
+  width: 42.5%;
+  margin-left: 0px;
+  height: 100%
+}
+
+.column-2 {
+  width: 57.5%;
+  height: 100%
+}
+
+
+.anakin {
+  background-image:     url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  margin-top: 0px;
+  margin-left: 0px
+}
+
+.name {
+  font-family: Abril Fatface;
+  font-size: 72px;
+  margin-left: 120px;
+  height: 50px;
+  border: none;
+  margin-bottom: 130px;
+  line-height: 90px;
+  position: absolute;
+  margin-top: -350px;
+  width: 500px;
+  font-weight: bold
+}
+
+quotes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: left;
+  justify-content: space-between;
+  height: 100%
+}
+
+.quote {
+  font-family: Abril Fatface;
+  font-size: 44px;
+  color: white;
+  font-weight: normal
+}
+
+blockquote {
+  display: flex;
+  width: 100%;
+  background-color: grey;
+  margin-left: 0px;
+  margin-bottom: 0px
+}
+
+blockquote::before {
+  content: '“';
+  font-family: Abril Fatface;
+  font-size: 150px;
+  font-weight: bold;
+  margin-top: -20px
+}
+
+.quotecontent {
+  font-family: Abril Fatface;
+  font-size: 94px;
+  margin: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-weight: normal
+}
+
+p, li {
+  font-family: "Josefin Sans";
+  font-size: 40px;
+  align-items: center;
+  line-height: 50px;
+  color: #222 grey; 
+  
+}
+
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 550px;
+  margin-left: 50px;
+  width: 100%;
+  margin-right: 50px
+}
+
+h2 {
+  font-family: "Josefin Sans";
+  font-size: 40px;
+  align-items: center;
+  line-height: 55px;
+  color: #222 grey;
+  font-weight: bold;
+  margin-bottom: 45px;
+  margin-top: 45px
+}
+
+h3 {
+  font-family: "Merriweather";
+  font-size: 25px;
+  font-style: italic;
+  margin-top: -30px;
+  margin-bottom: 50px
+}
+
+.paragraph {
+  margin-bottom: 100px
+}
